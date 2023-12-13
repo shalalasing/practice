@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style_01_1014.css">
+  <link rel="stylesheet" href="css/jquery.bxslider.css">
+  <link rel="stylesheet" href="css/lightbox.css">
+  <title>MySite</title>
+</head>
+
+<body>
+  <!-- .header -->
+  <header class="header">
+      <h1>抹茶カフェ</h1>
+  </header>
+  <!-- /.header -->
+
+
+  <main class="main-content">
+
+    <!-- .container -->
+    <div class="container">
+
+      <!-- .key-visual -->
+      <div class="key-visual">
+
+        <!-- .bxslider -->
+        <ul class="bxslider">
+          <li><img src="img/main01.jpg" alt=""></li>
+          <li><img src="img/main02.jpg" alt=""></li>
+          <li><img src="img/main03.jpg" alt=""></li>
+          <li><img src="img/main04.jpg" alt=""></li>
+          <li><img src="img/main05.jpg" alt=""></li>
+        </ul>
+        <!-- /.bxslider -->
+      </div>
+      <!-- /.key-visual -->
+
+
+      <!-- .lightbox-wrapper -->
+      <div class="lightbox-wrapper">
+        <div class="box">
+          <a href="img/img06.jpg" data-lightbox="images" title="フード画像">
+            <img src="img/img06.jpg" alt="">
+            <h2>抹茶</h2>
+            <p>Lorem ipsum dolor, Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+          </a>
+
+        </div>
+
+        <div class="box">
+          <a href="img/img07.jpg" data-lightbox="images" title="フード画像">
+            <img src="img/img07.jpg" alt="">
+            <h2>抹茶ラテ</h2>
+            <p>Lorem ipsum dolor, Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+          </a>
+        </div>
+
+        <div class="box">
+          <a href="img/img08.jpg" data-lightbox="images" title="フード画像">
+            <img src="img/img08.jpg" alt="">
+            <h2>アイス抹茶ラテ</h2>
+            <p>Lorem ipsum dolor, Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+          </a>
+        </div>
+
+        <div class="box">
+          <a href="img/img09.jpg" data-lightbox="images" title="フード画像">
+            <img src="img/img09.jpg" alt="">
+            <h2>抹茶と黒豆のロールケーキ</h2>
+            <p>Lorem ipsum dolor, Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+          </a>
+        </div>
+
+        <div class="box">
+          <a href="img/img10.jpg" data-lightbox="images" title="フード画像">
+            <img src="img/img10.jpg" alt="">
+            <h2>抹茶のミルフィーユ</h2>
+            <p>Lorem ipsum dolor, Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+          </a>
+        </div>
+
+        <div class="box">
+          <a href="img/img11.jpg" data-lightbox="images" title="フード画像">
+            <img src="img/img11.jpg" alt="">
+            <h2>抹茶アイス</h2>
+            <p>Lorem ipsum dolor, Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+          </a>
+        </div>
+      </div>
+      <!-- /.lightbox-wrapper -->
+
+     </div>
+
+  </main>
+  <!-- /.main -->
+
+
+  <footer class="footer">
+    <p><small>2024 &copy; maccha</small></p>
+  </footer>
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+  <script src="js/jquery.bxslider.js"></script>
+  <script src="js/lightbox.js"></script>
+
+  <script>
+    $(function() {
+      $('.bxslider').bxSlider({
+        mode: 'fade',
+        auto: true,
+        pager: false,
+        controls: false,
+        speed: 2000,
+        pause: 2000,
+      });
+    });
+  </script>
+
+
+
+</body>
+</html>
